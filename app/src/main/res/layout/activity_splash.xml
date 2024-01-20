@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="129dp"
+        android:layout_height="124dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/schoolNoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_marginTop="83dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="202013709069" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/schoolNoTextView"
+        android:layout_marginTop="11dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:text="Batuhan Yalçın" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="151dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Signup" />
+
+</RelativeLayout>

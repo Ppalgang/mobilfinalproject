@@ -1,0 +1,38 @@
+<!-- fragment_add_label.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/labelInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label Adı"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelInput"
+        android:hint="Açıklama"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionInput"
+        android:layout_marginTop="20dp"
+        android:text="Ekle"/>
+
+    <ListView
+        android:id="@+id/labelsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/addButton"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
